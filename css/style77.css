@@ -1,0 +1,93 @@
+body{
+    background-color:rgb(34, 30, 30);
+    position:relative;    
+}
+#header-nav{
+    background-color: blue;
+    height:150px;
+    border: solid 2px darkgreen;
+
+}
+.container .navbar-header{
+    background-color: blue;
+    height:140px;
+}
+h1 , h2{
+    font-style:oblique;
+    font-weight: bold;
+    color:rgb(15, 3, 3);
+    text-align: center;
+    text-shadow: 5px 5px 4px;
+}
+div , span{
+    color:darkgreen;
+}
+#logo_img1{
+    background:url('../images/logo_1.png') no-repeat; 
+    position:relative;
+    width: 150px;
+    height: 150px;
+}
+p {
+    margin-top:15px;
+    color:rgb(44, 44, 99);
+    text-align: center;
+    font-size:1.2em;
+ }
+ #game-info {
+     height:25px;
+     overflow: hidden;
+ }
+#main-content {
+    margin-top:100px;
+    margin-bottom:100px;
+}
+#main-content section{
+    position:relative;
+    border:solid 2xp;
+    margin-left:20px;
+    text-align:center;
+
+}
+#item-1{
+    width:350px;
+    height:300px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:25px;
+    margin-top:50px;
+    border-radius:5px;
+}
+
+@media(min-width:1200px){
+
+}
+@media (min-width:992px) and (max-width:1199px) {
+    #item-1{
+        width:400px;
+        }
+    
+}
+@media (max-width:991px) {
+    #item-1{
+        width:100%;
+        height:100%;
+    }
+    h1, h2 {
+        width:100%;
+        text-align:center;
+    }
+}
+footer div{
+    font-family: 'Times New Roman', Times, serif;
+}
+footer span{
+    font-weight:bold;
+}
+footer .container {
+    width:100%;
+    padding-left:25px;
+    padding-bottom:25px;
+    padding-top:15px;
+    background-color: rgb(231, 241, 133);
+}
